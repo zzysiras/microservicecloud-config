@@ -1,0 +1,17 @@
+﻿spring: 
+  profiles: 
+    active: 
+    - dev
+
+---
+spring: 
+  profiles: dev
+  application: 
+    name: microservicecloud-config-sirius-dev
+
+---
+spring: 
+  profiles: test
+  applicaiton: 
+    name: microservicecloud-config-sirius-test
+  
